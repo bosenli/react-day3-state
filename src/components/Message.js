@@ -14,11 +14,11 @@ const Message = () => {
                 type="text"
                 value={message}
                 placeholder="Enter a message" 
-                onChange={ (event) =>  setMessage(event.target.value) }
+                onChange={ (event) =>  setMessage(event.target.value) } //changes in webpage is event
                     // onChange is an event listener that listens for change
                     // It requires a callback function
                         // event.target.value
-                            // EVENT represents a change to the webpage
+                            // EVENT represents a change to the webpage in the input box
                                 // TARGET points to the specific change
                                     // VALUE is the value that is in the input box
                     
